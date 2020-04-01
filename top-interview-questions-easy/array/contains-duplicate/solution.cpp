@@ -1,12 +1,14 @@
+// https://leetcode.com/problems/contains-duplicate/
+
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_set <int> numSet;
-        for (int i = 0; i < nums.size(); i++) {
-            if (numSet.find(nums[i]) != numSet.end()) {
+        for (auto a: nums) {
+            if (numSet.find(a) != numSet.end()) {
                 return true;
             } 
-            numSet.insert(nums[i]);    
+            numSet.insert(a);     
         }
         return false;
     }

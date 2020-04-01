@@ -7,7 +7,8 @@ public:
         while (i < nums.size()) {
             if (nums[i - 1] == nums[i]) {
                 nums.erase(nums.begin() + i);
-            } else {
+            } 
+            else {
                 i++;
             }
         }
@@ -24,3 +25,5 @@ public:
         return nums.size();
     }
 };
+
+// TODO two pointer approach
