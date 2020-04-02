@@ -10,3 +10,7 @@
 - Intersection of Two Arrays II
 - Plus One
 - Move Zeroes
+- Two Sum
+
+- Reverse String
+- Reverse Integer
