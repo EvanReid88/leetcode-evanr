@@ -1,4 +1,4 @@
-https://leetcode.com/problems/valid-anagram
+// https://leetcode.com/problems/valid-anagram
 
 // hashmap solution
 // O(n)
@@ -21,7 +21,9 @@ public:
     }
 };
 
-// solution with array as hashmap (since all entries are will be lowercase)
+// solution with array as hashmap 
+// (since all entries are will be lowercase chars)
+// O(n)
 class Solution {
 public:
     bool isAnagram(string s, string t) {

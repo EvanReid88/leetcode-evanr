@@ -2,6 +2,7 @@
 
 # Completed
 
+#### Arrays
 - Remove Duplicates from Sorted Array
 - Best Time to Buy and Sell Stock II
 - Rotate Array
@@ -12,5 +13,6 @@
 - Move Zeroes
 - Two Sum
 
+#### Strings
 - Reverse String
 - Reverse Integer
