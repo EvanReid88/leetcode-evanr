@@ -2,6 +2,13 @@
 
 # Completed
 
+## 30 Day LeetCoding Challenge April
+- Single Number*
+- Happy Number
+
+---
+
+## Top Interview Questions Easy
 #### Arrays
 - Remove Duplicates from Sorted Array
 - Best Time to Buy and Sell Stock II
@@ -16,3 +23,7 @@
 #### Strings
 - Reverse String
 - Reverse Integer
+- First Unique Character in a String
+- Valid Anagram
+- Valid Palindrome
+
