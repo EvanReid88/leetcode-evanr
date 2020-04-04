@@ -5,6 +5,7 @@
 ## 30 Day LeetCoding Challenge April
 - Single Number*
 - Happy Number
+- Maximum Subarray
 
 ---
 
