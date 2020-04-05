@@ -7,11 +7,16 @@ public:
         int curSum = 0;
         int maxSum = INT_MIN;
         for (auto a: nums) {
-            if (curSum <= 0) curSum = a;
-            else curSum += a;
-            if (curSum > maxSum) maxSum = curSum;
+            if (curSum <= 0){
+                curSum = a;
+            } 
+            else {
+                curSum += a;
+            } 
+            if (curSum > maxSum) {
+                maxSum = curSum;
+            }
         }
-        
         return maxSum;
     }
 };
