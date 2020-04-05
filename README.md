@@ -6,6 +6,8 @@
 - Single Number*
 - Happy Number
 - Maximum Subarray
+- Move Zeroes*
+- Best Time to Buy and Sell Stock II*
 
 ---
 
