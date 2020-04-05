@@ -20,6 +20,7 @@
 - Plus One
 - Move Zeroes
 - Two Sum
+- Valid Sudoku
 
 #### Strings
 - Reverse String
