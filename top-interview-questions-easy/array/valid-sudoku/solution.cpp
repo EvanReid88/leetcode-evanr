@@ -1,5 +1,36 @@
 // https://leetcode.com/problems/valid-sudoku/
 
+// single hashset solution
+// O(n)
+class Solution {
+public:
+    bool isValidSudoku(vector<vector<char>>& board) { 
+        unordered_set<string> set; 
+        
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {     
+                // get value at current position
+                char value = board[i][j];
+                if (value != '.') {
+                    // check row set
+                    string rowStr = "r" + to_string(i) + value;
+                    if (!set.insert(rowStr).second) return false;
+                    
+                    // check column set
+                    string colStr = "c" + to_string(j) + value;
+                    if (!set.insert(colStr).second) return false;
+                    
+                    // check square set
+                    int squareNum = (i / 3) + 3 * (j / 3);
+                    string squareStr = "s" + to_string(squareNum) + value;
+                    if (!set.insert(squareStr).second) return false;
+                }
+            }
+        }
+        return true;
+    }
+};
+
 // first attempt
 // O(n)
 class Solution {
@@ -47,5 +78,3 @@ public:
         return true;
     }
 };
-
-// TODO attempt with single hashmap;

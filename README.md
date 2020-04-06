@@ -30,4 +30,5 @@
 - First Unique Character in a String
 - Valid Anagram
 - Valid Palindrome
+- String to Integer (atoi)
 
