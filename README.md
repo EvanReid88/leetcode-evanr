@@ -8,6 +8,7 @@
 - Maximum Subarray
 - Move Zeroes*
 - Best Time to Buy and Sell Stock II*
+- Group Anagrams
 
 ---
 
@@ -31,4 +32,7 @@
 - Valid Anagram
 - Valid Palindrome
 - String to Integer (atoi)
+
+### Trees
+- Maximum Depth of a Binary Tree
 
