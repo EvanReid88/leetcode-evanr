@@ -9,8 +9,7 @@
 - Move Zeroes*
 - Best Time to Buy and Sell Stock II*
 - Group Anagrams
-
----
+- Counting Elements
 
 ## Top Interview Questions Easy
 #### Arrays
