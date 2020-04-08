@@ -32,3 +32,6 @@
 - Valid Anagram
 - Valid Palindrome
 
+#### Math
+- Fizz Buzz
+
