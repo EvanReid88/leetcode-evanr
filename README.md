@@ -8,8 +8,8 @@
 - Maximum Subarray
 - Move Zeroes*
 - Best Time to Buy and Sell Stock II*
-
----
+- Group Anagrams
+- Counting Elements
 
 ## Top Interview Questions Easy
 #### Arrays
@@ -31,6 +31,10 @@
 - First Unique Character in a String
 - Valid Anagram
 - Valid Palindrome
+- String to Integer (atoi)
+
+### Trees
+- Maximum Depth of a Binary Tree
 
 #### Math
 - Fizz Buzz
