@@ -23,6 +23,7 @@
 - Move Zeroes
 - Two Sum
 - Valid Sudoku
+- Rotate Image
 
 #### Strings
 - Reverse String
