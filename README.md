@@ -38,6 +38,7 @@
 - String to Integer (atoi)
 - Implement strStr()
 - Count and Say
+- Longest Common Prefix
 
 #### Linked List
 - Delete Node in a Linked List
@@ -48,4 +49,3 @@
 
 #### Math
 - Fizz Buzz
-
