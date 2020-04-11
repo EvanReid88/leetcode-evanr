@@ -12,6 +12,8 @@
 - Counting Elements
 - Middle of the Linked List
 - Backspace String Compare
+- Min Stack
+- Diameter of Binary Tree
 
 ## Top Interview Questions Easy
 #### Arrays
@@ -34,6 +36,12 @@
 - Valid Anagram
 - Valid Palindrome
 - String to Integer (atoi)
+- Implement strStr()
+- Count and Say
+
+#### Linked List
+- Delete Node in a Linked List
+- Remove Nth Node From End of Linked List
 
 ### Trees
 - Maximum Depth of a Binary Tree
