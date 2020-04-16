@@ -14,6 +14,9 @@
 - Backspace String Compare
 - Min Stack
 - Diameter of Binary Tree
+- Last Stone Weight
+- Contiguous Array
+- Perform String Shifts
 
 ## Top Interview Questions Easy
 #### Arrays
