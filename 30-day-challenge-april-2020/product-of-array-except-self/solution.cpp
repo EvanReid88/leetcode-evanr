@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/product-of-array-except-self/
 
+// division not allowed
+
 // first attempt
 // O(n)
 class Solution {
