@@ -50,6 +50,7 @@
 
 ### Trees
 - Maximum Depth of a Binary Tree
+- Validate Binary Search Tree
 
 #### Math
 - Fizz Buzz
