@@ -1,10 +1,18 @@
 // https://leetcode.com/problems/valid-parenthesis-string/
 
+// helpful videos:
+// https://www.youtube.com/watch?v=jNZu72XP-xQ
+
 // greedy solution
 // O(n)
 class Solution {
 public:
     bool checkValidString(string s) {
+
+        // smallest and largest 
+        // possible number of
+        // open brackets after
+        // processing current char
         int low = 0;
         int high = 0;
         for (char c: s) {
@@ -51,6 +59,7 @@ public:
 class Solution {
 public:
     bool checkValidString(string s) {
+      // p is number of empty strings
         stack<int> p, star;
         for (int i = 0; i < s.size(); i++) {
             if (s[i] == '*') {
@@ -71,6 +80,7 @@ public:
             }
         }
         
+        // extra elements in the p and star stacks
         while (!p.empty() && !star.empty()) {
             if (p.top() > star.top()) {
                 return false;
