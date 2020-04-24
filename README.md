@@ -1,5 +1,7 @@
 #### Collection of LeetCode Solutions (C++)
 
+### TODO format this list better
+
 # Completed
 
 ## 30 Day LeetCoding Challenge April
@@ -21,6 +23,11 @@
 - Valid Parenthesis String
 - Number of Islands
 - Minimum Path Sum
+- Search in Rotated Search Array
+- Construct Binary Search Tree from Preorder Traversal
+- Leftmost Column with at Least a One
+- Subarray Sum Equals K
+- Bitwise AND of Numbers Range
 
 ## Top Interview Questions Easy
 #### Arrays
