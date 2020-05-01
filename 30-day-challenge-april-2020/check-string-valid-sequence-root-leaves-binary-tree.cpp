@@ -1,5 +1,4 @@
 // https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3315/
-
 // DFS Solution
 
 /**
@@ -34,5 +33,23 @@ public:
         int n = arr.size();
         int pos = 0;
         return isValidSequence(root, n, pos, arr);
+    }
+};
+
+// simple solution
+class Solution {
+public:
+    bool isValidSequence(TreeNode* root, vector<int>& arr,int i=0) {
+	//check if root is null but some elements of arr are left
+        if( !root && i <= arr.size()-1 )
+            return false;
+	//if we are on the last element of arr, then check it is leaf condition
+        if( i == arr.size()-1 ){
+            return root->val == arr[i] && root->left == NULL && root->right == NULL;
+        }
+	// if root->val is same as arr index value, call for next values in arr 
+	// on left and right subtrees
+        return root->val == arr[i] && ( isValidSequence(root->left,arr,i+1) || 
+                                     isValidSequence(root->right,arr,i+1) );
     }
 };
