@@ -1,7 +1,5 @@
 #### Collection of LeetCode Solutions (C++)
 
-### TODO format this list better
-
 # Completed
 
 ## 30 Day LeetCoding Challenge April
