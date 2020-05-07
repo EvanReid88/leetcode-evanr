@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/first-unique-character-in-a-string/
 
+
+// hashmap solution
 // O(n) Time
 // O(n) Space
 class Solution {
